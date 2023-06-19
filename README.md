@@ -118,7 +118,24 @@ jika gagal akan mendapat respon
 methode: POST
 url: `/me`
 
-jika ingin melihat detail silakan lakukan request dengan menggunakan bearer-token dari token jwt yang didapat saat login
+jika ingin melihat detail silakan lakukan request dengan menggunakan bearer-token dari token jwt yang didapat saat login.
+jika berhasil akan mendapat respon detail informasi member
+
+```javascript
+{
+    "nama": "Rona Regen",
+    "email": "ronaregen@gmail.com",
+    "phone": 628123456789,
+    "hobby": [
+        {
+            "hobby": "writting"
+        },
+        {
+            "hobby": "reading"
+        }
+    ]
+}
+```
 
 ### Update
 
